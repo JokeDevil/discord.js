@@ -1,3 +1,12 @@
+# Cfx.re patched `discord.js`
+
+This tree backports [discordjs/discord.js#7269](https://github.com/discordjs/discord.js/pull/7269) for compatibility
+with the Cfx.re Node.js runtime where mismatching explicit use of `node:timers` and global timer functions will lead to
+some nasty bug (leading to Discord revoking bot tokens when used).
+
+# Original readme
+
+
 <div align="center">
   <br />
   <p>
